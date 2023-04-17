@@ -23,3 +23,6 @@ def equal():
         entry.insert(0, y)
     except:
         tkinter.messagebox.showinfo("Error", "Syntax Error")
+
+def clear():
+    entry.delete(0, tk.END)
